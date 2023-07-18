@@ -1,0 +1,4 @@
+JSON Web Tokens (JWT): We have implemented JWT-based authentication, using the TokenService class to generate and decode JWTs for secure user authentication.
+Token Generation: With the createToken method, we generate JWTs containing user information, such as the user ID and role.
+Token Validation: Validates JWTs using the decodeToken method, ensuring that the token is not expired and contains valid user data.
+Secure User Access: With JWTs, we ensure that only authenticated users with valid tokens can access protected routes and perform authorized actions.
